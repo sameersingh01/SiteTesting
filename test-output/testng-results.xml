@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-08T01:22:31 IST" name="Suite" finished-at="2024-06-08T01:25:35 IST" duration-ms="183362">
+    <groups>
+    </groups>
+    <test started-at="2024-06-08T01:22:31 IST" name="Test" finished-at="2024-06-08T01:22:42 IST" duration-ms="10971">
+      <class name="PagesTests.HomePageActivity">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:PagesTests.HomePageActivity@6dab9b6d]" started-at="2024-06-08T01:22:31 IST" name="initializeDriver" finished-at="2024-06-08T01:22:37 IST" duration-ms="5815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="search()[pri:0, instance:PagesTests.HomePageActivity@6dab9b6d]" started-at="2024-06-08T01:22:37 IST" name="search" finished-at="2024-06-08T01:22:42 IST" duration-ms="4572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:PagesTests.HomePageActivity@6dab9b6d]" started-at="2024-06-08T01:22:42 IST" name="closeDriver" finished-at="2024-06-08T01:22:42 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- PagesTests.HomePageActivity -->
+    </test> <!-- Test -->
+    <test started-at="2024-06-08T01:22:43 IST" name="TopDeals" finished-at="2024-06-08T01:22:55 IST" duration-ms="11817">
+      <class name="PagesTests.TopDealsClick">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:PagesTests.TopDealsClick@1a6c1270]" started-at="2024-06-08T01:22:43 IST" name="initializeDriver" finished-at="2024-06-08T01:22:45 IST" duration-ms="1994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="topdeals()[pri:0, instance:PagesTests.TopDealsClick@1a6c1270]" started-at="2024-06-08T01:22:45 IST" name="topdeals" finished-at="2024-06-08T01:22:55 IST" duration-ms="9377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topdeals -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:PagesTests.TopDealsClick@1a6c1270]" started-at="2024-06-08T01:22:55 IST" name="closeDriver" finished-at="2024-06-08T01:22:55 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- PagesTests.TopDealsClick -->
+    </test> <!-- TopDeals -->
+    <test started-at="2024-06-08T01:22:55 IST" name="Cart" finished-at="2024-06-08T01:23:03 IST" duration-ms="7439">
+      <class name="PagesTests.AddtoCartActivity">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:PagesTests.AddtoCartActivity@176b3f44]" started-at="2024-06-08T01:22:55 IST" name="initializeDriver" finished-at="2024-06-08T01:22:57 IST" duration-ms="1450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="addtocart()[pri:0, instance:PagesTests.AddtoCartActivity@176b3f44]" started-at="2024-06-08T01:22:57 IST" name="addtocart" finished-at="2024-06-08T01:23:02 IST" duration-ms="5540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:PagesTests.AddtoCartActivity@176b3f44]" started-at="2024-06-08T01:23:02 IST" name="closeDriver" finished-at="2024-06-08T01:23:03 IST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- PagesTests.AddtoCartActivity -->
+    </test> <!-- Cart -->
+    <test started-at="2024-06-08T01:23:03 IST" name="Registration" finished-at="2024-06-08T01:23:27 IST" duration-ms="24285">
+      <class name="PagesTests.RegistrationPageActivity">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:PagesTests.RegistrationPageActivity@797cf65c]" started-at="2024-06-08T01:23:03 IST" name="initializeDriver" finished-at="2024-06-08T01:23:04 IST" duration-ms="1655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="registration()[pri:0, instance:PagesTests.RegistrationPageActivity@797cf65c]" started-at="2024-06-08T01:23:04 IST" name="registration" finished-at="2024-06-08T01:23:26 IST" duration-ms="22194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:PagesTests.RegistrationPageActivity@797cf65c]" started-at="2024-06-08T01:23:27 IST" name="closeDriver" finished-at="2024-06-08T01:23:27 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- PagesTests.RegistrationPageActivity -->
+    </test> <!-- Registration -->
+    <test started-at="2024-06-08T01:23:27 IST" name="Login" finished-at="2024-06-08T01:23:37 IST" duration-ms="9892">
+      <class name="PagesTests.LoginPageActivity">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:PagesTests.LoginPageActivity@3a12c404]" started-at="2024-06-08T01:23:27 IST" name="initializeDriver" finished-at="2024-06-08T01:23:29 IST" duration-ms="1515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="login()[pri:0, instance:PagesTests.LoginPageActivity@3a12c404]" started-at="2024-06-08T01:23:29 IST" name="login" finished-at="2024-06-08T01:23:32 IST" duration-ms="3639" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[no such execution context
+  (Session info: chrome=125.0.6422.143)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [247d6f856900859e274ef45a3892208e, findElement {value=//a[@href='https://courses.rahulshettyacademy.com/sign_up'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.143, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\MRFAA6~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50436/devtoo..., se:cdpVersion: 125.0.6422.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 247d6f856900859e274ef45a3892208e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: no such execution context
+  (Session info: chrome=125.0.6422.143)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [247d6f856900859e274ef45a3892208e, findElement {value=//a[@href='https://courses.rahulshettyacademy.com/sign_up'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.143, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\MRFAA6~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50436/devtoo..., se:cdpVersion: 125.0.6422.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 247d6f856900859e274ef45a3892208e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+at PageFactory.LoginPage.click_registerButton(LoginPage.java:46)
+at PagesTests.LoginPageActivity.login(LoginPageActivity.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:PagesTests.LoginPageActivity@3a12c404]" started-at="2024-06-08T01:23:37 IST" name="closeDriver" finished-at="2024-06-08T01:23:37 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- PagesTests.LoginPageActivity -->
+    </test> <!-- Login -->
+    <test started-at="2024-06-08T01:23:37 IST" name="Hotels" finished-at="2024-06-08T01:23:58 IST" duration-ms="21221">
+      <class name="PagesTests.HotelsPageActivity">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:PagesTests.HotelsPageActivity@33fe57a9]" started-at="2024-06-08T01:23:37 IST" name="initializeDriver" finished-at="2024-06-08T01:23:39 IST" duration-ms="2210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="hotels()[pri:0, instance:PagesTests.HotelsPageActivity@33fe57a9]" started-at="2024-06-08T01:23:39 IST" name="hotels" finished-at="2024-06-08T01:23:58 IST" duration-ms="18504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotels -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:PagesTests.HotelsPageActivity@33fe57a9]" started-at="2024-06-08T01:23:58 IST" name="closeDriver" finished-at="2024-06-08T01:23:58 IST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- PagesTests.HotelsPageActivity -->
+    </test> <!-- Hotels -->
+    <test started-at="2024-06-08T01:23:59 IST" name="Holiday" finished-at="2024-06-08T01:24:28 IST" duration-ms="29368">
+      <class name="PagesTests.HolidayPageActivity">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:PagesTests.HolidayPageActivity@71529963]" started-at="2024-06-08T01:23:59 IST" name="initializeDriver" finished-at="2024-06-08T01:24:01 IST" duration-ms="1946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="holiday()[pri:0, instance:PagesTests.HolidayPageActivity@71529963]" started-at="2024-06-08T01:24:01 IST" name="holiday" finished-at="2024-06-08T01:24:27 IST" duration-ms="26246" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=125.0.6422.143)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bcc9ba7f4db570160ec6fde2ee3c991b, sendKeysToElement {value=[Ljava.lang.CharSequence;@6f24ce45, id=f.567E97D0C28AFA7092D308A110DB2766.d.D8200C035F25579D127FEE728F0B298E.e.34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.143, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\MRFAA6~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50501}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50501/devtoo..., se:cdpVersion: 125.0.6422.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bcc9ba7f4db570160ec6fde2ee3c991b)] -> id: ctl00_mainContent_ddl_destinationStation1_CTXT]
+Session ID: bcc9ba7f4db570160ec6fde2ee3c991b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=125.0.6422.143)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bcc9ba7f4db570160ec6fde2ee3c991b, sendKeysToElement {value=[Ljava.lang.CharSequence;@6f24ce45, id=f.567E97D0C28AFA7092D308A110DB2766.d.D8200C035F25579D127FEE728F0B298E.e.34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.143, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\MRFAA6~1.SIN\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50501}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50501/devtoo..., se:cdpVersion: 125.0.6422.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bcc9ba7f4db570160ec6fde2ee3c991b)] -> id: ctl00_mainContent_ddl_destinationStation1_CTXT]
+Session ID: bcc9ba7f4db570160ec6fde2ee3c991b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+at PageFactory.HolidayPackagesPage.destinationCity(HolidayPackagesPage.java:50)
+at PagesTests.HolidayPageActivity.holiday(HolidayPageActivity.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- holiday -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:PagesTests.HolidayPageActivity@71529963]" started-at="2024-06-08T01:24:28 IST" name="closeDriver" finished-at="2024-06-08T01:24:28 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- PagesTests.HolidayPageActivity -->
+    </test> <!-- Holiday -->
+    <test started-at="2024-06-08T01:24:28 IST" name="FlightSearch" finished-at="2024-06-08T01:24:49 IST" duration-ms="20448">
+      <class name="PagesTests.FlightSearchActivity">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:PagesTests.FlightSearchActivity@77258e59]" started-at="2024-06-08T01:24:28 IST" name="initializeDriver" finished-at="2024-06-08T01:24:32 IST" duration-ms="3484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="flightSearch()[pri:0, instance:PagesTests.FlightSearchActivity@77258e59]" started-at="2024-06-08T01:24:32 IST" name="flightSearch" finished-at="2024-06-08T01:24:48 IST" duration-ms="16565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSearch -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:PagesTests.FlightSearchActivity@77258e59]" started-at="2024-06-08T01:24:48 IST" name="closeDriver" finished-at="2024-06-08T01:24:49 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- PagesTests.FlightSearchActivity -->
+    </test> <!-- FlightSearch -->
+    <test started-at="2024-06-08T01:24:49 IST" name="FlightBooking" finished-at="2024-06-08T01:25:12 IST" duration-ms="23302">
+      <class name="PagesTests.FlightBookingActivity">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:PagesTests.FlightBookingActivity@331acdad]" started-at="2024-06-08T01:24:49 IST" name="initializeDriver" finished-at="2024-06-08T01:24:51 IST" duration-ms="2229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="flightBook()[pri:0, instance:PagesTests.FlightBookingActivity@331acdad]" started-at="2024-06-08T01:24:51 IST" name="flightBook" finished-at="2024-06-08T01:25:12 IST" duration-ms="20628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBook -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:PagesTests.FlightBookingActivity@331acdad]" started-at="2024-06-08T01:25:12 IST" name="closeDriver" finished-at="2024-06-08T01:25:12 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- PagesTests.FlightBookingActivity -->
+    </test> <!-- FlightBooking -->
+    <test started-at="2024-06-08T01:25:12 IST" name="FlightStatus" finished-at="2024-06-08T01:25:35 IST" duration-ms="22573">
+      <class name="PagesTests.FlightStatusActivity">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:PagesTests.FlightStatusActivity@5dd1c9f2]" started-at="2024-06-08T01:25:12 IST" name="initializeDriver" finished-at="2024-06-08T01:25:14 IST" duration-ms="1854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="flightStatus()[pri:0, instance:PagesTests.FlightStatusActivity@5dd1c9f2]" started-at="2024-06-08T01:25:14 IST" name="flightStatus" finished-at="2024-06-08T01:25:34 IST" duration-ms="20228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightStatus -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:PagesTests.FlightStatusActivity@5dd1c9f2]" started-at="2024-06-08T01:25:34 IST" name="closeDriver" finished-at="2024-06-08T01:25:35 IST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- PagesTests.FlightStatusActivity -->
+    </test> <!-- FlightStatus -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">	
+<parameter name="platform" value="local" />
+<listeners>
+		<listener class-name="TestComponents.Listeners"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="PagesTests.HomePageActivity"/>
+    </classes>
+    </test> <!-- Test -->
+  <test thread-count="5" name="TopDeals">
+    <classes>
+      <class name="PagesTests.TopDealsClick"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Cart">
+    <classes>
+      <class name="PagesTests.AddtoCartActivity"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Registration">
+    <classes>
+      <class name="PagesTests.RegistrationPageActivity"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Login">
+    <classes>
+      <class name="PagesTests.LoginPageActivity"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Hotels">
+    <classes>
+      <class name="PagesTests.HotelsPageActivity"/>
+    </classes>
+  </test> <!-- Test -->
+	
+	
+	    <test thread-count="5" name="Holiday">
+    <classes>
+      <class name="PagesTests.HolidayPageActivity"/>
+    </classes>
+  </test> <!-- Test -->
+  
+	
+	
+  
+	    <test thread-count="5" name="FlightSearch">
+    <classes>
+      <class name="PagesTests.FlightSearchActivity"/>
+    </classes>
+  </test> <!-- Test -->
+	
+	   <test thread-count="5" name="FlightBooking">
+    <classes>
+      <class name="PagesTests.FlightBookingActivity"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="FlightStatus">
+    <classes>
+      <class name="PagesTests.FlightStatusActivity"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

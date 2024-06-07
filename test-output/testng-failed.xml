@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="platform" value="local"/>
+  <listeners>
+    <listener class-name="TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Login(failed)">
+    <classes>
+      <class name="PagesTests.LoginPageActivity">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="login"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- PagesTests.LoginPageActivity -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test thread-count="5" name="Holiday(failed)">
+    <classes>
+      <class name="PagesTests.HolidayPageActivity">
+        <methods>
+          <include name="holiday"/>
+          <include name="initializeDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- PagesTests.HolidayPageActivity -->
+    </classes>
+  </test> <!-- Holiday(failed) -->
+</suite> <!-- Failed suite [Suite] -->
