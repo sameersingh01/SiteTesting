@@ -1,14 +1,14 @@
 pipeline {
   agent any
   tools {
-    maven 'MAVEN_HOME'
+    maven 'Maven 3.9.6'
   }
 
   stages {
     stage('Example') {
       steps {
 
-        withMaven(maven: 'MAVEN_HOME') {
+        withMaven(maven: 'Maven 3.9.6') {
 
           bat 'mvn clean test'
         }
